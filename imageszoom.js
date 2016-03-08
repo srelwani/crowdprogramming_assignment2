@@ -10,7 +10,6 @@ $.getScript('jquery.elevatezoom.js', function()
   zoomWindowFadeOut: 750
   });
 
-});
 
 $('#zoom_02').elevateZoom({
 zoomType: "inner",
@@ -45,4 +44,5 @@ zoomType: "inner",
 cursor: "crosshair",
 zoomWindowFadeIn: 500,
 zoomWindowFadeOut: 750
+});
 });
